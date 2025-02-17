@@ -1,5 +1,5 @@
 public class Main {
-    public static void printLetter(String offense, String numberOfOffenses) {
+    public static void printLetter(String offense, String violationFrequency) {
         // Method will handle printing the complete letter
         System.out.println("---Complete Letter---");
         System.out.println();
@@ -12,7 +12,7 @@ public class Main {
         System.out.println();
 
         String offense = offenseType();
-        String numberOfOffenses = numberOfOffense();
+        String offenseFrequency = violationFrequency();
     }
 
     public static String offenseType() {
@@ -23,12 +23,12 @@ public class Main {
         return offenseOption;
     }
 
-    public static String numberOfOffense() {
+    public static String violationFrequency() {
         // Method prints out the choices associated with number of offenses, and returns a String value
-        String offenseNumber;
+        String offenseFrequency;
         byte option;
 
-        return offenseNumber;
+        return offenseFrequency;
     }
 
     public static void main(String[] args) {
