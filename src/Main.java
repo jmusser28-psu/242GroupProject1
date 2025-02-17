@@ -1,10 +1,15 @@
 public class Main {
     public static void printLetter(String offense, String numberOfOffenses) {
         // Method will handle printing the complete letter
+        System.out.println("---Complete Letter---");
+        System.out.println();
 
     }
     public static void printLetterWithPrompts() {
         // Method will handle with printing the incomplete letter and will call the method "choices" to deal choices
+        System.out.println("---Incomplete Letter---");
+        System.out.println();
+
         String offense = offenseType();
         String numberOfOffenses = numberOfOffense();
     }
