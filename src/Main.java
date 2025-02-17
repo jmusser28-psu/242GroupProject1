@@ -7,6 +7,7 @@ public class Main {
     }
     public static void printLetterWithPrompts() {
         // Method will handle with printing the incomplete letter and will call the method "choices" to deal choices
+        // Method will also call the complete letter method and pass the choices through as strings
         System.out.println("---Incomplete Letter---");
         System.out.println();
 
