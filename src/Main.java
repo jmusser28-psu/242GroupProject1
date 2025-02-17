@@ -1,5 +1,5 @@
 public class Main {
-    public static void printLetter(String offense, String violationFrequency) {
+    public static void printLetter(String offense, String offenseFrequency) {
         // Method will handle printing the complete letter
         System.out.println("---Complete Letter---");
         System.out.println();
