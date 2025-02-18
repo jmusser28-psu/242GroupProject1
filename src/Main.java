@@ -1,37 +1,26 @@
 public class Main {
-    public static void printLetter(String offense, String offenseFrequency) {
-        // Method will handle printing the complete letter
-        System.out.println("---Complete Letter---");
-        System.out.println();
+    public static void printLetter() {
 
     }
-    public static void printLetterWithPrompts() {
-        // Method will handle with printing the incomplete letter and will call the method "choices" to deal choices
-        // Method will also call the complete letter method and pass the choices through as strings.
-        System.out.println("---Incomplete Letter---");
-        System.out.println();
 
-        String offense = offenseType();
-        String offenseFrequency = violationFrequency();
+    public static String getProfessorName() {
+        String professorName = "";
+
+        return professorName;
     }
 
-    public static String offenseType() {
-        // Method prints out the choices associated with offenses, and returns a String value
-        String offenseOption;
-        byte option;
+    public static String getCourseName() {
+        String courseName = "";
 
-        return offenseOption;
     }
 
-    public static String violationFrequency() {
-        // Method prints out the choices associated with number of offenses, and returns a String value
-        String offenseFrequency;
-        byte option;
+    public static byte getNumberOfViolations() {
+        byte numberOfViolations = 0;
 
-        return offenseFrequency;
+        return numberOfViolations;
     }
 
     public static void main(String[] args) {
-        printLetter();
+
     }
 }
