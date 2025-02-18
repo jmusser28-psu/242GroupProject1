@@ -3,6 +3,10 @@ public class Main {
 
     }
 
+    public static void getInformation() {
+
+    }
+
     public static String getProfessorName() {
         String professorName = "";
 
