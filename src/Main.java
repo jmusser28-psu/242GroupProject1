@@ -66,7 +66,7 @@ public class Main {
         String professorName = "";
 
         System.out.print("Please enter the name of the professor: ");
-        professorName = scnr.nextLine();
+        professorName = validNotBlank(scnr);
 
         return professorName;
     }
@@ -74,7 +74,7 @@ public class Main {
     public static String getCourseInfo(Scanner scnr) {
         String courseName = "";
         System.out.print("Please enter the course name and number: ");
-        courseName = scnr.nextLine();
+        courseName = validNotBlank(scnr);
 
         return courseName;
     }
@@ -180,6 +180,23 @@ public class Main {
         }
 
         return byteToCheck;
+    }
+
+    public static String validNotBlank(Scanner scnr) {
+        boolean valid = false;
+        String stringToCheck = "";
+
+        while(!valid) {
+            stringToCheck = scnr.nextLine();
+            if (stringToCheck.isBlank()) {
+                System.out.print("Please enter information: ");
+            }
+            else {
+                valid = true;
+            }
+        }
+
+        return stringToCheck;
     }
 
     public static void main(String[] args) {
