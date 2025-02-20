@@ -188,10 +188,10 @@ public class Main {
         String course = getCourseInfo(scnr);
         byte week = getWeekNumber(scnr);
         String[] violations = getViolations(scnr);
-        byte numberOfViolations = getFrequencyOfViolations(scnr);
+        byte violationsFrequency = getFrequencyOfViolations(scnr);
         String firstOrSecond = "";
 
-        if (numberOfViolations == 1) {
+        if (violationsFrequency == 1) {
             firstOrSecond = "first";
         }
         else {
@@ -199,12 +199,12 @@ public class Main {
         }
 
         String violationStatement = "";
-        if (numberOfViolations == 1) {
+        if (violationsFrequency == 1) {
             violationStatement = "Moving forward, a second such incident will require a Second Event Memo " +
                     "to be sent, and a meeting requested to address relevant issues and needs.";
         }
 
-        if (numberOfViolations == 2) {
+        else {
             violationStatement = "Given this is the second incident, you will be contacted to establish the " +
                     "next steps to ensure the timely completion of classroom procedures";
         }
