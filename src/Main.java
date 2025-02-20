@@ -19,14 +19,14 @@ public class Main {
         System.out.println();
 
         System.out.printf("In reviewing your CLAP course, %s, for Week %d, it was noticed that you have neglected to: \n", course, week);
-        for (int i = 0; i < violations.length; i++) {
-            System.out.println("    - " + violations[i]);
+        for (String element : violations) {
+            System.out.println("    - " + element);
         }
         System.out.println();
 
         System.out.printf("This is the %s observation that your class was missing a vital component. This is just a friendly " +
-                "reminder to update CLAP as soon as possible. It is understood that things happen sometimes " +
-                "and that mistakes do occur.", firstOrSecond);
+                "reminder to update CLAP as soon as possible.\n", firstOrSecond);
+        System.out.println("It is understood that things happen sometimes and that mistakes do occur.");
         System.out.println();
 
         System.out.println("Please take some time to review Faculty Expectations by viewing these links:");
@@ -41,8 +41,8 @@ public class Main {
         System.out.println(violationStatement);
 
         System.out.println("Please keep in mind that these issues are raised out of concern for you, as a practicing " +
-                "instructor, and for the integrity of our classes and the needs of our students. You are a valued " +
-                "asset at May Dee Ocre University.");
+                "instructor, and for the integrity of our classes and the needs of our students.");
+        System.out.println("You are a valued asset at May Dee Ocre University.");
         System.out.println();
 
         System.out.println("Finally, please acknowledge receipt of this message, " +
