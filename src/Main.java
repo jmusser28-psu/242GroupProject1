@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Additionally, each week, classroom reviews are conducted to ensure that records are kept up-" +
                 "to-date and that our students are fully aware of their progress toward success.");
         System.out.println("The components reviewed include posting of grades, " +
-                "including zeros, posting of participation and attendance," +
+                "including zeros, posting of participation and attendance, " +
                 "and that class was held and for the scheduled length.");
         System.out.println();
 
