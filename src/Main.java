@@ -24,8 +24,8 @@ public class Main {
         }
         System.out.println();
 
-        System.out.printf("This is the %s observation that your class was missing a vital component. This is just a friendly " +
-                "reminder to update CLAP as soon as possible.\n", firstOrSecond);
+        System.out.printf("This is the %s observation that your class was missing a vital component.\n", firstOrSecond);
+        System.out.println("This is just a friendly reminder to update CLAP as soon as possible.");
         System.out.println("It is understood that things happen sometimes and that mistakes do occur.");
         System.out.println();
 
